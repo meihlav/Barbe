@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background: #bbbbbb;
+    padding: 20px 0;
+}
+
+.box {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: pink;
+}
+
+#barbe {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+}
+
+.principal {
+    background-color: #858080;
+    margin: 0;
+    padding: 30px;
+}
+
+.titulo {
+    padding-left: 20px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#size {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+.itens {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    font-size: 30px;
+}
+
+.beneficios {
+    background: #ffffff;
+}
+
+h2 {
+    text-align: center;
+}
+
+.corte {
+    width: 40%;
+    padding: 0 0 0 323px;
+}
+
+footer {
+    text-align: center;
+    background: url("/Aula/assets/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 20px;
+}
