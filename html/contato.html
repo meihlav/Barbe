@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/Aula/css/reset.css">
+    <link rel="stylesheet" href="/Aula/css/style.css">
+</head>
+
+<body>
+    <!-- navegação -->
+    <header>
+        <div class="box">
+            <h1><img src="/Aula/assets/logo.png" alt="Logo Barbearia"> </h1>
+            <nav>
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form>
+            <!-- Formulario  -->
+            <label for="nomesobrenome">Nome e SobreNome </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="SeuEmail@dominio.com">
+
+            <label for="telefone"> Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <!-- Radio-contato -->
+            <fieldset>
+                <legend class="teste" id="teste">Como Prefere o Contato?</legend>
+
+                <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+
+
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone </label>
+
+
+                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+
+            </fieldset>
+            <!-- seleção -->
+            <fieldset>
+                <legend>Qual Horario Prefere Ser Atendido</legend>
+                <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>noite</option>
+            </select>
+            </fieldset>
+
+            <!-- check box -->
+            <label class="checkbox"><input type="checkbox" checked> Gostaria de receber novidades por Email?</label>
+
+            <input type="submit" value="Enviar Formulario" class="enviar">
+
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>8h-20h</td>
+                </tr>
+                <tr>
+                    <td>Terça</td>
+                    <td>8h-20h</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>8h-20h</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>8h-20h</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>8h-20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <img src="/Aula/assets/logo-branco.png" alt="Logo Barbearia">
+
+        <p class="copyright"> &copy; Copyright Jukinha 2021</p>
+    </footer>
+
+</body>
+
+</html>
